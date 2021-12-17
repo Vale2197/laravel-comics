@@ -11243,7 +11243,36 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-body {
-  background-color: black;
+#jumbo {
+  height: 400px;
+  background-color: yellowgreen;
+}
+
+header .blueBar {
+  background-color: #0282f9;
+  color: white;
+}
+header .blueBar p {
+  padding: 0.3rem 0;
+}
+
+main #comics {
+  background-color: #1c1c1c;
+  color: white;
+}
+main #shop {
+  background-color: #0282f9;
+  color: white;
+}
+
+footer .linkSection {
+  background-color: grey;
+  color: white;
+}
+footer .followUs {
+  background-color: #303030;
+  color: white;
+}
+footer .followUs button {
   color: white;
 }

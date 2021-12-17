@@ -1,7 +1,51 @@
 //
 @use 'bootstrap';
 
-body {
-    background-color: black;
-    color: white;
+$brand-color: #0282f9;
+$comics: #1c1c1c;
+$light-brand: #0282f9;
+$light-comics: #303030;
+
+#jumbo {
+    height: 400px;
+    background-color: yellowgreen;
+}
+
+header {
+   .blueBar {
+       background-color: $brand-color;
+       color: white;
+
+       p {
+           padding: 0.3rem 0;
+       }
+   }
+}
+
+main {
+    #comics {
+        background-color: $comics;
+        color: white;
+    }
+
+    #shop {
+        background-color:$light-brand;
+        color: white;
+    }
+}
+
+footer {
+    .linkSection {
+        background-color: grey;
+        color: white;
+    }
+
+    .followUs {
+        background-color: $light-comics;
+        color: white;
+
+        button {
+            color: white;
+        }
+    }
 }
