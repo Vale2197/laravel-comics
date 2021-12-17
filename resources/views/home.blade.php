@@ -7,10 +7,15 @@
 
 <section id="comics" class="py-4">
     <div class="container">
-        <div class="row">
-            <div class="col-2">
-                film-card
-            </div>
+        <div class="row g-3">
+            @foreach ($comics as $comic)
+                <div class="col-2">
+                    <img class="img-fluid" src="{{$comic['thumb']}}" alt="#">
+                    <p>
+                        {{ $comic['title'] }}
+                    </p>
+                </div>
+            @endforeach
         </div>
     </div>
 </section>

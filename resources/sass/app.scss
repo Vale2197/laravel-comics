@@ -8,7 +8,9 @@ $light-comics: #303030;
 
 #jumbo {
     height: 400px;
-    background-color: yellowgreen;
+    background-image: url('../img/jumbotron.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 header {
