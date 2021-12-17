@@ -6,6 +6,10 @@ $comics: #1c1c1c;
 $light-brand: #0282f9;
 $light-comics: #303030;
 
+* {
+    box-sizing: border-box;
+}
+
 #jumbo {
     height: 400px;
     background-image: url('../img/jumbotron.jpg');
@@ -20,6 +24,24 @@ header {
 
        p {
            padding: 0.3rem 0;
+       }
+   }
+   .myNav {
+       
+       .row {
+         
+           .col-9 {
+              ul {
+                  height: 90px;
+                  line-height: 90px;
+              }
+           }
+
+           input {
+               border: none;
+               border-bottom: 3px solid $brand-color;
+               font-weight: bold;
+           }
        }
    }
 }

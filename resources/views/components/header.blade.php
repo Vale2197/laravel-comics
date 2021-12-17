@@ -22,13 +22,13 @@
     <!-- / blue bar -->
 
         <div class="myNav container">
-            <div class="row align-items-center py-3">
+            <div class="row align-items-center">
                 <div class="col-1">
                     <img style="width: 60px" src="{{asset('/img/dc-logo.png')}}" alt="#">
                 </div>
 
                 <div class="col-9">
-                    <ul class="d-flex">
+                    <ul class="d-flex list-unstyled justify-content-around m-0">
                         <li>
                             link 1
                         </li>
@@ -48,7 +48,9 @@
                 </div>
 
                 <div class="col-2">
-                    <input type="text" placeholder="search" class="form-control">
+                    <form action="">
+                        <input type="text" value="Search" class="form-control text-end"> 
+                    </form>
                 </div>
             </div>
         </div>

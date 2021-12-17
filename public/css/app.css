@@ -11243,6 +11243,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+* {
+  box-sizing: border-box;
+}
+
 #jumbo {
   height: 400px;
   background-image: url("../img/jumbotron.jpg");
@@ -11256,6 +11260,15 @@ header .blueBar {
 }
 header .blueBar p {
   padding: 0.3rem 0;
+}
+header .myNav .row .col-9 ul {
+  height: 90px;
+  line-height: 90px;
+}
+header .myNav .row input {
+  border: none;
+  border-bottom: 3px solid #0282f9;
+  font-weight: bold;
 }
 
 main #comics {
