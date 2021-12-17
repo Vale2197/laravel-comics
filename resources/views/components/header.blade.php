@@ -29,21 +29,11 @@
 
                 <div class="col-9">
                     <ul class="d-flex list-unstyled justify-content-around m-0">
+                        @foreach($headerLinks as $link)
                         <li>
-                            link 1
+                           <strong> {{$link}} </strong>
                         </li>
-
-                        <li>
-                            link 1
-                        </li>
-
-                        <li>
-                            link 1
-                        </li>
-
-                        <li>
-                            link 1
-                        </li>
+                        @endforeach
                     </ul>
                 </div>
 
