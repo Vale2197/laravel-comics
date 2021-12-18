@@ -106,6 +106,19 @@ main {
     #shop {
         background-color:$light-brand;
         color: white;
+
+        .shopItems {
+            .col {
+                display: flex;
+                align-items: center;
+                img {
+                    width: 4rem;
+                    margin-right: 1rem;
+                    height: 4rem;
+                    object-fit: contain;
+                }
+            }
+        }
     }
 }
 

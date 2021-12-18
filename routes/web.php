@@ -14,9 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    
     $comics = config('db.comics');
 
     $headerLinks = config('db.headerLinks');
 
-    return view('home', compact('comics'), compact('headerLinks'));
+    return view('home', compact('comics'), compact('headerLinks'),);
 });

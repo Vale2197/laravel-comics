@@ -35,20 +35,10 @@
 </section>
 <!-- / COMICS -->
 
-<section id="shop" class="py-4">
+<section id="shop" class="py-5">
     <div class="container">
-        <div class="row">
-
-           <!--  @foreach ($shopItems as $item)
-
-                <div class="col">
-                    <p>
-                        {{$item['title']}}
-                    </p>
-                </div>
-
-            @endforeach -->
-
+        <div class="row shopItems">
+            @include('components.shopItems')
         </div>
     </div>
 </section>

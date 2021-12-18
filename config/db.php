@@ -230,28 +230,4 @@ return [
         'SHOP',
     ],
 
-/*     'shopItems' => [
-        [
-            'title' => 'DIGITAL COMICS',
-            'img' => "{{ asset('/img/buy-comics-digital-comics.png') }}"
-        ],
-        [
-            'title' => 'DC MERCHANDISE',
-            'img' => "{{ asset('/img/buy-comics-merchandise.png') }}"
-        ],
-        [
-            'title' => 'SUBSCRIPTION',
-            'img' => "{{ asset('/img/buy-comics-subscriptions.png') }}"
-        ],
-        [
-            'title' => 'COMIC SHOP LOCATOR',
-            'img' => "{{ asset('/img/buy-comics-shop-locator.png') }}"
-        ],
-        [
-            'title' => 'DC POWER VISA',
-            'img' => "{{ asset('/img/buy-dc-power-visa.svg') }}"
-        ],
-
-    ] */
-
 ];
