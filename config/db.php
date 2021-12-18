@@ -230,4 +230,5 @@ return [
         'SHOP',
     ],
 
+    'shopItems' => ['ciao', 'ciao2'],
 ];

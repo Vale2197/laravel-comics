@@ -40,6 +40,7 @@
         <div class="row shopItems">
             @include('components.shopItems')
         </div>
+
     </div>
 </section>
 <!-- / SHOP -->

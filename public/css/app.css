@@ -11286,7 +11286,7 @@ main #comics {
 }
 main #comics .jumboSpan {
   margin: 0;
-  margin-top: -2rem;
+  margin-top: -1.5rem;
 }
 main #comics .jumboSpan span {
   width: 15rem;
@@ -11337,8 +11337,27 @@ main #shop .shopItems .col img {
 }
 
 footer .linkSection {
-  background-color: grey;
+  background-image: url("../img/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
+}
+footer .linkSection .row {
+  background-image: url("../img/dc-logo-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: auto;
+}
+footer .linkSection p {
+  font-weight: bold;
+}
+footer .linkSection a {
+  color: #959595;
+  text-decoration: none;
+}
+footer .linkSection .col-6 {
+  color: #959595;
+  font-weight: normal;
 }
 footer .followUs {
   background-color: #303030;
@@ -11346,4 +11365,9 @@ footer .followUs {
 }
 footer .followUs button {
   color: white;
+  border: 2px solid #0282f9;
+  padding: 1rem 1rem;
+}
+footer .followUs .icons p {
+  color: #0282f9;
 }
