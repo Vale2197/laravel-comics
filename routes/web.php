@@ -21,3 +21,11 @@ Route::get('/', function () {
 
     return view('home', compact('comics'), compact('headerLinks'),);
 });
+
+
+Route::get('/buy', function () {
+    
+    $headerLinks = config('db.headerLinks');
+
+    return view('buy', compact('headerLinks'));
+});

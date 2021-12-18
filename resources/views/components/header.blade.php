@@ -24,14 +24,16 @@
         <div class="myNav container">
             <div class="row align-items-center">
                 <div class="col-1">
-                    <img style="width: 60px" src="{{asset('/img/dc-logo.png')}}" alt="#">
+                    <a href="buy">
+                        <img style="width: 60px" src="{{asset('/img/dc-logo.png')}}" alt="#">
+                    </a> 
                 </div>
 
                 <div class="col-9">
                     <ul class="d-flex list-unstyled justify-content-around m-0">
                         @foreach($headerLinks as $link)
                         <li>
-                           <a href="#">  <strong> {{$link}} </strong> </a>
+                           <a href="/">  <strong> {{$link}} </strong> </a>
                         </li>
                         @endforeach
                     </ul>
