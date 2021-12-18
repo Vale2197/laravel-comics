@@ -7,15 +7,29 @@
 
 <section id="comics" class="py-4">
     <div class="container">
-        <div class="row g-3">
+        <div class="row g-4">
+            <div class="jumboSpan mb-4">
+                <span>
+                    CURRENT SERIES
+                </span>
+            </div>
+
             @foreach ($comics as $comic)
-                <div class="col-2">
-                    <img class="img-fluid" src="{{$comic['thumb']}}" alt="#">
+                <div class="col-2 myCard">
+                    <img src="{{$comic['thumb']}}" alt="#">
                     <p>
                         {{ $comic['title'] }}
                     </p>
                 </div>
             @endforeach
+            <!-- / cards -->
+
+            <div class="col-12">
+                <button>
+                    LOAD MORE
+                </button>
+            </div>
+
         </div>
     </div>
 </section>
@@ -25,25 +39,16 @@
     <div class="container">
         <div class="row">
 
-            <div class="col">
-                <p>shopNav-item</p>
-            </div>
+           <!--  @foreach ($shopItems as $item)
 
-            <div class="col">
-                <p>shopNav-item</p>
-            </div>
+                <div class="col">
+                    <p>
+                        {{$item['title']}}
+                    </p>
+                </div>
 
-            <div class="col">
-                <p>shopNav-item</p>
-            </div>
+            @endforeach -->
 
-            <div class="col">
-                <p>shopNav-item</p>
-            </div>
-
-            <div class="col">
-                <p>shopNav-item</p>
-            </div>
         </div>
     </div>
 </section>

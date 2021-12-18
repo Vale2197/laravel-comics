@@ -11247,6 +11247,11 @@ textarea.form-control-lg {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 #jumbo {
   height: 400px;
   background-image: url("../img/jumbotron.jpg");
@@ -11260,6 +11265,10 @@ header .blueBar {
 }
 header .blueBar p {
   padding: 0.3rem 0;
+  font-size: 0.5rem;
+}
+header .blueBar p i {
+  font-size: 0.6rem;
 }
 header .myNav .row .col-9 ul {
   height: 90px;
@@ -11274,6 +11283,42 @@ header .myNav .row input {
 main #comics {
   background-color: #1c1c1c;
   color: white;
+}
+main #comics .jumboSpan {
+  margin: 0;
+  margin-top: -2rem;
+}
+main #comics .jumboSpan span {
+  width: 15rem;
+  background-color: #0282f9;
+  display: inline-block;
+  height: 3rem;
+  text-align: center;
+  line-height: 3rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+main #comics .myCard img {
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+main #comics .myCard p {
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+main #comics .col-12 {
+  text-align: center;
+}
+main #comics .col-12 button {
+  border: none;
+  padding: 0.5rem 2rem;
+  font-weight: bold;
+  color: white;
+  background-color: #0282f9;
 }
 main #shop {
   background-color: #0282f9;

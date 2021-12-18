@@ -8,10 +8,10 @@
 
                    <div class="d-flex justify-content-end">
                         <p class="m-0 me-4">
-                            copyright
+                            DC POWER VISA
                         </p>
-                        <p class="m-0">
-                            copyright 2
+                        <p class="m-0 d-flex align-items-center">
+                            ADDITIONAL DC SITES <i class="ms-2 fas fa-sort-down"></i>
                         </p>
                    </div>
                   
@@ -31,7 +31,7 @@
                     <ul class="d-flex list-unstyled justify-content-around m-0">
                         @foreach($headerLinks as $link)
                         <li>
-                           <strong> {{$link}} </strong>
+                           <a href="#">  <strong> {{$link}} </strong> </a>
                         </li>
                         @endforeach
                     </ul>
