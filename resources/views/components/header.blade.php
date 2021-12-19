@@ -24,7 +24,7 @@
         <div class="myNav container">
             <div class="row align-items-center">
                 <div class="col-1">
-                    <a href="buy">
+                    <a href="buyComic">
                         <img style="width: 60px" src="{{asset('/img/dc-logo.png')}}" alt="#">
                     </a> 
                 </div>
