@@ -11335,6 +11335,26 @@ main #shop .shopItems .col img {
   -o-object-fit: contain;
      object-fit: contain;
 }
+main #jumbo_comic {
+  background-color: #0282f9;
+}
+main .myContainer {
+  width: 60%;
+  margin: auto;
+}
+main .myContainer .img {
+  height: 300px;
+  top: calc(-200px - 1rem);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+main .myContainer .img p {
+  position: absolute;
+  color: white;
+  margin: 0;
+  background-color: #00a9d9;
+}
 
 footer .linkSection {
   background-image: url("../img/footer-bg.jpg");

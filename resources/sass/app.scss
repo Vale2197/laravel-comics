@@ -5,6 +5,8 @@ $brand-color: #0282f9;
 $comics: #1c1c1c;
 $light-brand: #0282f9;
 $light-comics: #303030;
+$buy-color: #0282f9;
+$buy-light-color: #55ba59;
 
 * {
     box-sizing: border-box;
@@ -14,6 +16,8 @@ a {
     text-decoration: none;
     color: black;
 }
+
+
 
 #jumbo {
     height: 400px;
@@ -101,6 +105,7 @@ main {
                 background-color: $light-brand;
             }
         }
+
     }
 
     #shop {
@@ -119,6 +124,28 @@ main {
                 }
             }
         }
+    }
+    
+    #jumbo_comic {
+        
+        background-color: $buy-color;
+    }
+    .myContainer {
+        width: 60%;
+        margin: auto;
+
+        .img {
+            height: 300px;
+            top: calc(100px - 300px - 1rem);
+            width: fit-content;
+            p {
+                position: absolute;
+                color: white;
+                margin: 0;
+                background-color: #00a9d9;
+            }
+        }
+        
     }
 }
 

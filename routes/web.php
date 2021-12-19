@@ -24,8 +24,8 @@ Route::get('/', function () {
 
 
 Route::get('/buy', function () {
-    
+    $comics = config('db.comics');
     $headerLinks = config('db.headerLinks');
 
-    return view('buy', compact('headerLinks'));
+    return view('buy', compact('headerLinks'), compact('comics'));
 });
