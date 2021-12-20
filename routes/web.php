@@ -23,9 +23,14 @@ Route::get('/', function () {
 });
 
 
-Route::get('/buyComic', function () {
+Route::get('/buyComic/{id}', function ($id) {
+
     $comics = config('db.comics');
+    
     $headerLinks = config('db.headerLinks');
 
-    return view('buyComic', compact('headerLinks'), compact('comics'));
-});
+    $id = $comics[$id];
+
+    return view('buyComic', compact('headerLinks'), compact('comics'), compact('id'));
+})->name('comic');
+

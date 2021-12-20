@@ -3,9 +3,7 @@
 
 $brand-color: #0282f9;
 $comics: #1c1c1c;
-$light-brand: #0282f9;
 $light-comics: #303030;
-$buy-color: #0282f9;
 $buy-light-color: #55ba59;
 
 * {
@@ -71,7 +69,7 @@ main {
 
             span {
                 width: 15rem;
-                background-color: $light-brand;
+                background-color: $brand-color;
                 display: inline-block;
                 height: 3rem;
                 text-align: center;
@@ -102,14 +100,14 @@ main {
                 padding: 0.5rem 2rem;
                 font-weight: bold;
                 color: white;
-                background-color: $light-brand;
+                background-color: $brand-color;
             }
         }
 
     }
 
     #shop {
-        background-color:$light-brand;
+        background-color:$brand-color;
         color: white;
 
         .shopItems {
@@ -128,7 +126,7 @@ main {
     
     #jumbo_comic {
         
-        background-color: $buy-color;
+        background-color: $brand-color;
     }
     .myContainer {
         width: 60%;
@@ -185,13 +183,13 @@ footer {
 
         button {
             color: white;
-            border: 2px solid $light-brand;
+            border: 2px solid $brand-color;
             padding: 1rem 1rem;
         }
 
         .icons {
             p {
-                color: $light-brand;
+                color: $brand-color;
             }
         }
     }

@@ -14,11 +14,11 @@
                 </span>
             </div>
 
-            @foreach ($comics as $comic)
+            @foreach ($comics as $index => $comic)
                 <div class="col-2 myCard">
-                    <img src="{{$comic['thumb']}}" alt="#">
+                    <a href="{{ route('comic', ['id' => $index])}}"> <img src="{{$comic['thumb']}}" alt="#"> </a> 
                     <p>
-                        {{ $comic['title'] }}
+                        {{ $comic['series'] }}
                     </p>
                 </div>
             @endforeach

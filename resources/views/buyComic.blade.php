@@ -3,7 +3,7 @@
 @section('main')
     @include('components.jumbo')
 
-    <section id="jumbo_comic" style="height: 100px; border-bottom: 1px solid green">
+    <section id="jumbo_comic" style="height: 100px;">
 
         <div class="myContainer">
             <div class="comic_row row">
@@ -43,7 +43,7 @@
             <div class="row">
                 <div class="col-9">
                     <h3 style="text-transform: uppercase; color: #043f5e">
-                       <strong> {{$comics[0]['title']}} </strong>
+                       <strong> {{$comics[0]['title']}}  </strong>
                     </h3>
                     {{-- /title --}}
 
