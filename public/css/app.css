@@ -11243,6 +11243,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.price-color {
+  color: #9bec84;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -11354,6 +11358,49 @@ main .myContainer .img p {
   color: white;
   margin: 0;
   background-color: #00a9d9;
+}
+main .comic_price {
+  background-color: #55ba59;
+  color: white;
+  height: 3rem;
+  align-items: center;
+}
+main .comic_price p {
+  margin: 0;
+}
+main .comic_price .col-9 {
+  height: 3rem;
+  line-height: 3rem;
+}
+main #comic_info h4 {
+  color: #0e567a;
+  border-bottom: 1px solid #b3b3b3;
+}
+main #comic_info .col-12 {
+  border-bottom: 1px solid #b3b3b3;
+}
+main #comic_info .pirce-col-6 p {
+  color: #0e567a;
+  font-weight: bold;
+  border-bottom: 1px solid #b3b3b3;
+  margin: 0;
+  padding: 0.5rem 0;
+}
+main #comic_info .pirce-col-6 p span {
+  margin-left: 1rem;
+}
+main #comic_info .pirce-col-6 p span.serie {
+  color: #00a9d9;
+}
+main #comic_info .items {
+  margin-top: 10rem;
+  color: grey;
+}
+main #comic_info .items .col-3 {
+  border-right: 1px solid grey;
+}
+main #comic_info .items .col-3:first-child {
+  border-left: 1px solid grey;
 }
 
 footer .linkSection {

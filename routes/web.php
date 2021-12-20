@@ -19,7 +19,7 @@ Route::get('/', function () {
 
     $headerLinks = config('db.headerLinks');
 
-    return view('home', compact('comics'), compact('headerLinks'),);
+    return view('home', compact('comics', 'headerLinks'));
 });
 
 
@@ -29,8 +29,8 @@ Route::get('/buyComic/{id}', function ($id) {
     
     $headerLinks = config('db.headerLinks');
 
-    $id = $comics[$id];
+    $comic = $comics[$id];
 
-    return view('buyComic', compact('headerLinks'), compact('comics'), compact('id'));
+    return view('buyComic', compact('headerLinks', 'comics', 'comic'));
 })->name('comic');
 

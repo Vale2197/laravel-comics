@@ -5,6 +5,11 @@ $brand-color: #0282f9;
 $comics: #1c1c1c;
 $light-comics: #303030;
 $buy-light-color: #55ba59;
+$price-color: #9bec84;
+
+.price-color {
+    color: $price-color;
+}
 
 * {
     box-sizing: border-box;
@@ -144,6 +149,60 @@ main {
             }
         }
         
+    }
+
+    .comic_price {
+        background-color: $buy-light-color;
+        color: white;
+        height: 3rem;
+        align-items: center;
+        p {
+            margin: 0;
+        }
+        .col-9 {
+            height: 3rem;
+            line-height: 3rem;
+        }
+
+      
+    }
+
+    #comic_info {
+        h4 {
+            color: #0e567a;
+            border-bottom: 1px solid rgb(179, 179, 179);
+        }
+        .col-12 {
+            border-bottom: 1px solid rgb(179, 179, 179);
+        }
+        .pirce-col-6 {
+            p {
+                color: #0e567a;
+                font-weight: bold;
+                border-bottom: 1px solid rgb(179, 179, 179);
+                margin: 0;
+                padding: 0.5rem 0;
+                span {
+                    margin-left: 1rem;
+
+                    &.serie {
+                        color: #00a9d9;
+                    }
+                }
+             
+            }
+        }
+        .items {
+            margin-top: 10rem;
+            color: grey;
+            .col-3 {
+                border-right: 1px solid grey;
+
+                &:first-child {
+                    border-left: 1px solid grey;
+                }
+            }
+        }
     }
 }
 
